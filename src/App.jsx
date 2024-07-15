@@ -1,19 +1,21 @@
-import React from 'react'
-import NavigationBar from './Components/NavigationBar/NavigationBar'
-import HeroSection from './Components/Hero Section/HeroSection'
-import Footer from './Components/Footer Section/Footer'
-import ScanningArea from './Components/BodyContent/ScanningArea'
+import React from "react";
+import Home from "./Pages/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Blog from "./Pages/Blog";
+import NavigationBar from "./Components/NavigationBar/NavigationBar";
 
 function App() {
   return (
     <div>
-      <NavigationBar/>
-      <HeroSection/>
-      <ScanningArea/>
-      <Footer/>
-      
+      <BrowserRouter>
+        <NavigationBar />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/blog" element={<Blog />}></Route>
+        </Routes>
+      </BrowserRouter>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

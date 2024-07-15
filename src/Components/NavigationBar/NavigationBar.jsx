@@ -8,6 +8,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import './NavigationBar.css'
 import logo from "../../assets/AgriCure-Logo-New.png";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 function NavigationBar() {
 
@@ -43,9 +44,9 @@ function NavigationBar() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-center flex-grow-1 pe-3 gap-3">
-                <Nav.Link href="#action1">Home</Nav.Link>
-                <Nav.Link href="#action2">News</Nav.Link>
-                <Nav.Link href="#action3">Blog</Nav.Link>
+                <Nav.Link as={Link} to="/">Home</Nav.Link>
+                <Nav.Link as={Link} to="/news">News</Nav.Link>
+                <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
                 <NavDropdown
                   title={language}
                   id={`offcanvasNavbarDropdown-expand-md`}
