@@ -1,0 +1,37 @@
+.wrapper-scan{
+  height: auto;
+  background: rgb(172,215,144);
+  background: linear-gradient(176deg, rgba(172,215,144,1) 35%, rgba(70,115,41,1) 83%);
+  /* margin-top: -10px; */
+}
+.scanning-area{
+  height: auto;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.305);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.84);
+}
+/* .image-scaner-section{
+  border: 2px dashed blue;
+  min-height: 300px;
+  min-width: 300px;
+  cursor: pointer;
+} */
+/* .scanning-area img{
+  width: 80px;
+  background-color: rgb(10, 233, 162);
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(8, 184, 129);
+  transition: border 0.3s ease 0s;
+}
+.scanning-area img:hover{
+  border: 10px solid rgb(4, 83, 58);
+} */
+
+/* .image-scaner-section img{
+  width: 260px;
+} */

@@ -1,0 +1,26 @@
+.wrapper{
+  background: linear-gradient(176deg, rgba(230, 230, 223, 0.25) 35%, rgba(80, 171, 20, 0.467) 83%), url(../../assets/Background-image.png);
+  /* height: 145vh; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.hero{
+  padding-top: 150px;
+}
+.hero-content img{
+  width: 40%;
+  border-radius: 50px;
+}
+.hero-image{
+
+}
+.title h2{
+  background: #B3C122;
+  background: radial-gradient(circle farthest-corner at center center, #6f771d 0%, #0b330d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: -1px 4px 8px rgba(7, 26, 9, 0.72);
+
+}
