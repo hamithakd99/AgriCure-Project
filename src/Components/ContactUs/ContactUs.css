@@ -1,0 +1,71 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background: linear-gradient(to bottom, white, transparent), green;
+  color: rgb(0, 0, 0);
+}
+
+/* General styles for the container and rows */
+.container {
+  margin: 50px;
+  padding: 0px;
+ 
+}
+.ContactForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.container {
+  background: white; /* To ensure content has a different background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Contact form */
+
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0 px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #070708;
+  outline: 0;
+  
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+
+button.submit-btn {
+  color: #fff;
+  background-color: #10ae10;
+  border-color: #00ff378c;
+  margin: 10px;
+  padding: 10px;
+}
+
+button.submit-btn:hover {
+  color: #fff;
+  background-color: #010408;
+  border-color: #00000000;
+}
+
