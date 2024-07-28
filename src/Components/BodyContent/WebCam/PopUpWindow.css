@@ -1,0 +1,6 @@
+.image-scanner{
+  border: 2px dashed blue;
+  min-height: 300px;
+  min-width: 300px;
+  cursor: pointer;
+}
