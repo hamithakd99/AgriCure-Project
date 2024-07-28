@@ -1,0 +1,109 @@
+body {
+  background:linear-gradient(white,transparent);
+  background-color:green ;
+  color: rgb(0, 0, 0);
+ }
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card-1 {
+  background-color: black;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  border-radius:10px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.container {
+ padding: 50px;
+  text-align: center;
+  background:linear-gradient(white,transparent);
+  background-color:green ;
+  color: rgb(0, 0, 0);
+}
+
+img {
+  border: 5px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50px;
+}
+
+.title {
+  color: grey;
+}
+
+.container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
+
+}
+@media (max-width: 1500px) {
+  .container-1 {
+    font-size: 14px;  /* Set a smaller font size for screens less than 768px wide */
+  }
+}
+.card {
+  flex: 1 1 200px; /* Grow, shrink, and basis size of 200px */
+  margin: 10px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 50px;
+  border: 0px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  align-self: center;
+}
+
+@media (max-width: 1200px) {
+  .card img {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card img{
+    flex: 1 1 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.container-1::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.columns {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-1 {
+  flex: 1;  /* Makes columns share available space equally */
+  padding: 5px;
+  margin-right: 10px;  /* Adds space between columns */
+}
+
