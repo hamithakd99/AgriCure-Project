@@ -9,10 +9,6 @@
   opacity: 0.6;
 }
 
-.wrapper-footer{
-  background: rgb(69,114,41);
-  background: linear-gradient(180deg, rgba(69,114,41,1) 35%, rgba(70,115,41,0.23573179271708689) 83%);
-}
 .footer-content{
   background: rgba(255, 255, 255, 0.816);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

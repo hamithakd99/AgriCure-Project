@@ -24,7 +24,8 @@ function HeroSection() {
                 </p>
                 <Form className="d-flex mt-3">
                   <Form.Control
-                    type="search"
+                    required
+                    type="text"
                     placeholder="Find Disease..."
                     className="me-2 py-3"
                     aria-label="Search"
