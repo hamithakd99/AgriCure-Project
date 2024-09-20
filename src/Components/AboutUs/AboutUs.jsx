@@ -59,6 +59,8 @@ function AboutUs() {
         <div class="row team py-3 rounded-3 bg-opacity-25 bg-black mt-3">
           <div className="col-12 col-lg-3 col-md-6 mb-3 mb-sm-2 d-flex justify-content-center align-items-center">
           <Cards
+            width={"17rem"}
+            minHeight={"28rem"}
             image={Hamitha}
             name={"Hamitha Apsara"}
             title={"UI/UX Designer & FrontEnd Developer"}
@@ -67,6 +69,8 @@ function AboutUs() {
           </div>
           <div className="col-12 col-lg-3 col-md-6 mb-3 mb-sm-2 d-flex justify-content-center align-items-center">
           <Cards
+            width={"17rem"}
+            minHeight={"28rem"}
             image={Pawani}
             name={"J.A.P.W.Jayaweera"}
             title={"FrontEnd Developer & ML Developer"}
@@ -75,6 +79,8 @@ function AboutUs() {
           </div>
           <div className="col-12 col-lg-3 col-md-6 mb-3 mb-sm-2 d-flex justify-content-center align-items-center">
           <Cards
+            width={"17rem"}
+            minHeight={"28rem"}
             image={Sampavy}
             name={"Sampavy Kangeyan"}
             title={"FrontEnd Developer & ML Developer"}
@@ -83,6 +89,8 @@ function AboutUs() {
           </div>
           <div className="col-12 col-lg-3 col-md-6 mb-3 mb-sm-2 d-flex justify-content-center align-items-center">
           <Cards
+            width={"17rem"}
+            minHeight={"28rem"}
             image={Buddini}
             name={"Y.S.M.B.U.Yallarawa"}
             title={"BackEnd Developer"}

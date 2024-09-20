@@ -1,0 +1,7 @@
+.Topbar{
+  padding-top: 100px;
+}
+.bg{
+  background: rgb(69,114,41);
+  background: linear-gradient(172deg, rgba(69,114,41,0.39539565826330536) 45%, rgba(70,115,41,1) 84%);
+}
