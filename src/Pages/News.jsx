@@ -32,10 +32,10 @@ function News() {
       text: "Lorem50",
     },
     {
-      src: "img/news-100x100-2.jpg",
+      src: "https://www.worldteanews.com/best-practices/troubles-andrew-yule-and-company-puts-8k-tea-workers-risk",
       alt: "News 2",
       link: "#",
-      text: "Lorem ipsum dolor sit amet consec adipis elit",
+      text: "Troubles at Andrew Yule and Company Puts 8k Tea Workers at Risk",
     },
     {
       src: "img/news-100x100-3.jpg",
@@ -88,7 +88,7 @@ function News() {
               </div>
             </Col>
             <Col md={4} className="text-right d-none d-md-block">
-              Monday, January 01, 2045
+              Wednesday, September 24, 2024
             </Col>
           </Row>
           <Row className="align-items-center py-2 px-lg-5">

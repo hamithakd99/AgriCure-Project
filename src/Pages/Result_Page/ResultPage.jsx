@@ -102,12 +102,79 @@ function ResultPage() {
               </div>
             </div> */}
             <div className="row">
-              
+              <div className="col-lg-5 col-md-12">
+                <div className="image-gallery d-flex flex-column justify-content-between align-items-center gap-3 rounded-5 p-3 ">
+                  {/* Main Image */}
+                  <div className="main-image d-flex justify-content-center align-items-center rounded-5 p-3">
+                    {/* If images are available, display the first image */}
+                    {imageURLs.length > 0 ? (
+                      <img
+                        src={imageURLs[0]}
+                        alt="Main Disease Image"
+                        className="rounded-5"
+                      />
+                    ) : (
+                      <img
+                        src={image}
+                        alt="Placeholder"
+                        className="rounded-5"
+                      />
+                    )}
+                  </div>
+
+                  {/* Other Images */}
+                  <div className="other-images p-1 p-md-2 d-flex justify-content-around align-items-center gap-1 gap-md-2 rounded-bottom">
+                    {imageURLs.slice(1).map((url, index) => (
+                      <div className="img1" key={index}>
+                        <img
+                          src={url}
+                          alt={`Disease ${index + 1}`}
+                          className="rounded-3"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-7 col-md-12">
+                <div className="content-details d-flex flex-column justify-content-evenly align-items-center">
+                  <div className="names-science d-flex align-items-center border rounded-pill p-3 bg-success-subtle">
+                    <div className="name">
+                      <h1>{diseaseData.name} /</h1>
+                    </div>
+                    <div className="science-name">
+                      <h4>
+                        <figure>
+                          <blockquote class="blockquote">
+                            <h4>
+                              <em>{diseaseData.scientificName}</em>
+                            </h4>
+                          </blockquote>
+                          <figcaption class="blockquote-footer">
+                            scientific Name
+                          </figcaption>
+                        </figure>
+                      </h4>
+                    </div>
+                  </div>
+                  <div className="description">
+                    <p className="fs-5">{diseaseData.description}</p>
+                  </div>
+                  <div className="recommand-solution border border-success rounded p-3 bg-success bg-gradient">
+                    <div className="titleofContent">
+                      <h2 className="text-center">~ Recommended Solutions ~</h2>
+                    </div>
+                    <div className="solutions text-white">
+                      <p className="">{diseaseData.solution}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="image-gallery d-flex flex-column justify-content-between align-items-center gap-3 rounded-5 p-3">
-              {/* Main Image */}
+            {/* <div className="image-gallery d-flex flex-column justify-content-between align-items-center gap-3 rounded-5 p-3">
+              
               <div className="main-image d-flex justify-content-center align-items-center rounded-5 p-3">
-                {/* If images are available, display the first image */}
+                
                 {imageURLs.length > 0 ? (
                   <img
                     src={imageURLs[0]}
@@ -119,7 +186,7 @@ function ResultPage() {
                 )}
               </div>
 
-              {/* Other Images */}
+              
               <div className="other-images p-3 d-flex justify-content-around align-items-center gap-3 rounded-bottom">
                 {imageURLs.slice(1).map((url, index) => (
                   <div className="img1" key={index}>
@@ -131,15 +198,15 @@ function ResultPage() {
                   </div>
                 ))}
               </div>
-            </div>
-            <div className="content-details d-flex flex-column justify-content-evenly align-items-center">
+            </div> */}
+            {/* <div className="content-details d-flex flex-column justify-content-evenly align-items-center">
               <div className="names-science d-flex align-items-center border rounded-pill p-3 bg-success-subtle">
                 <div className="name">
                   <h1>{diseaseData.name} /</h1>
                 </div>
                 <div className="science-name">
                   <h4>
-                    {/* <em>{diseaseData.scientificName}</em> */}
+                    
                     <figure>
                       <blockquote class="blockquote">
                         <h4>
@@ -164,7 +231,7 @@ function ResultPage() {
                   <p className="">{diseaseData.solution}</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

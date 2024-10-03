@@ -4,10 +4,11 @@
 .image-gallery{
   background-color: rgb(47, 58, 21);
   border: 2px dashed rgb(132, 132, 135);
+  width: 80%;
 }
 .main-image{
   /* background-color: rgb(215, 209, 209); */
-  width: 600px;
+  width: 120%;
   height: auto;
   
 }
@@ -16,7 +17,7 @@
 }
 .other-images{
   /* background-color: rgb(215, 209, 209); */
-  width: 600px;
+  width: 90%;
   height: auto;
   border-top: 2px dashed rgb(132, 132, 135);
   
