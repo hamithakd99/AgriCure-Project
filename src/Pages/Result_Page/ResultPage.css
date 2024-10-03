@@ -2,21 +2,22 @@
   background: rgb(42, 226, 33);
 }
 .image-gallery{
-  background-color: rgb(215, 209, 209);
+  background-color: rgb(47, 58, 21);
   border: 2px dashed rgb(132, 132, 135);
+  width: 80%;
 }
 .main-image{
-  background-color: rgb(215, 209, 209);
-  width: 600px;
+  /* background-color: rgb(215, 209, 209); */
+  width: 120%;
   height: auto;
   
 }
 .main-image img{
-  width: 100%;
+  width: 60%;
 }
 .other-images{
-  background-color: rgb(215, 209, 209);
-  width: 600px;
+  /* background-color: rgb(215, 209, 209); */
+  width: 90%;
   height: auto;
   border-top: 2px dashed rgb(132, 132, 135);
   
@@ -28,5 +29,6 @@
   width: 100%;
 }
 .content-details{
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  height: 740px;
 }
